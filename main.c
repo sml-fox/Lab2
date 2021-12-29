@@ -16,8 +16,9 @@ void main()
 {
     double t1, u;
 
-    t1 = t2 * sqrt((n0 / n1)*k);
+    t1 = t2 * sqrt((n0 / n1)*k);   // Функція sqrt() повертає квадратний корінь
     u = u1 / 1+ (t1/t2);
+
     printf("Fisrt we calculated T1\n");
     printf("t1=%f\n",t1);
     printf("After T1 we calculated U\n");
